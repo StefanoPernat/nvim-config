@@ -25,4 +25,12 @@ return {
     config = function()
     end
   },
+  -- indent blankline
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    main = "ibl",
+    config = function()
+      require("ibl").setup({})
+    end
+  }
 }
