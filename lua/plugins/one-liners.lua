@@ -23,6 +23,7 @@ return {
   {
     'github/copilot.vim',
     config = function()
+      vim.keymap.set('i', '<leader>ca', 'copilot#Accept("<CR>")', { expr = true, silent = true })
     end
   },
   -- indent blankline
